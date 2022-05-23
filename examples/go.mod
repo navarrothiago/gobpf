@@ -2,11 +2,10 @@ module github.com/iovisor/gobpf/examples
 
 go 1.18
 
-
 require (
-  github.com/florianl/go-tc v0.4.1
+	github.com/florianl/go-tc v0.4.1
 	github.com/iovisor/gobpf v0.2.0
- )
+)
 
 require (
 	github.com/google/go-cmp v0.5.7 // indirect
@@ -17,3 +16,4 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27 // indirect
 )
+
